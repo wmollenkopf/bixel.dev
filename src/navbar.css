@@ -4,9 +4,11 @@ ul#topnav {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    display: flex;
+    justify-content: center;
   }
   
-  ul#topnav li {float: left;}
+  ul#topnav li {float: flex; width: 100px;}
   
   ul#topnav li a {
     display: block;
@@ -26,12 +28,12 @@ ul#topnav {
   }
   
   .navBarToggler {display: none;}
-  
+/*   
   @media screen and (max-width: 600px) {
     
     ul#topnav li {float: none;}
     .navBarToggler {display: block; float: right;}
     .hide-nav-links .navLink {display: none}
     .show-nav-links .navLink {display: block}
-  }
+  } */
  
