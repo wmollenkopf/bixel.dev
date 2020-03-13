@@ -1,0 +1,37 @@
+ul#topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul#topnav li {float: left;}
+  
+  ul#topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+  ul#topnav li a:hover:not(.active) {
+    background: -webkit-linear-gradient(white, #73879e);
+    color: #111;
+}
+  
+  ul#topnav li a.active {  background: -webkit-linear-gradient(white, #73879e);
+    color: #111;
+  }
+  
+  .navBarToggler {display: none;}
+  
+  @media screen and (max-width: 600px) {
+    
+    ul#topnav li {float: none;}
+    .navBarToggler {display: block; float: right;}
+    .hide-nav-links .navLink {display: none}
+    .show-nav-links .navLink {display: block}
+  }
+ 
