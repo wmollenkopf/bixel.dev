@@ -23,7 +23,7 @@ ul#topnav {
     color: #111;
 }
   
-  ul#topnav li a.active {  background: -webkit-linear-gradient(white, #73879e);
+  ul#topnav li.active {  background: -webkit-linear-gradient(white, #73879e);
     color: #111;
   }
   
