@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
 import "./navbar.css";
-import NavList from "./components/Navbar/NavList.js"
+import NavList from "./Components/Navbar/NavList"
+import { FaTwitch } from 'react-icons/fa';
 
 export default class App extends Component {
   PAGE_NAMES = {
@@ -60,7 +61,7 @@ export default class App extends Component {
             }
           >
             <a href="#projects" onClick={this.newRoute}>
-              Projects
+              Home
             </a>
           </li>
           <li className="navLink">
@@ -70,12 +71,12 @@ export default class App extends Component {
           </li>
           <li className="navLink">
             <a href="#blog" onClick={this.newRoute}>
-              Blog
+              FFXIV
             </a>
           </li>
           <li className="navLink">
             <a href="#about" onClick={this.newRoute}>
-              About
+              <FaTwitch /> Twitch
             </a>
           </li>
         </ul>
@@ -84,10 +85,7 @@ export default class App extends Component {
           <span id="mainTitle">bixel.dev</span>
           <hr />
           <span id="subTitle">
-            <div>Projects</div>
-            <div>Games</div>
-            <div>Blog</div>
-            <div>About</div>
+            <div>To Be Continued</div>
           </span>
         </div>
       </div>
