@@ -81,21 +81,6 @@
   margin: 5px auto;
   padding: 5px auto;
 }
-#subTitle div:hover {
-  background: -webkit-linear-gradient(white, #73879e);
-  color: black;
-  -webkit-text-fill-color: black;
-  border: 1px solid #73879e;
-  border-radius: 8px;
-  width: 200px;
-  margin: 5px auto;
-  padding: 5px auto;
-}
-
-#subTitle div:hover {
-  border: 1px solid #73879e;
-  border-radius: 8px;
-}
 
 
 @keyframes animStar {
