@@ -2,8 +2,10 @@ import React from 'react';
 import "./About.css";
 import photoImage from "./photo.jpg"
 import { IoIosMail, IoLogoGithub, IoLogoTwitter } from 'react-icons/io';
+import { FaTwitch } from 'react-icons/fa';
+import { PAGE_NAMES } from "../Constants.js";
 
-const About = () => {
+const About = ({ newRoute }) => {
     return (
         <div id="backgroundContainer">
             <div id="aboutContainer">
@@ -20,6 +22,7 @@ const About = () => {
                     <button><IoIosMail /></button>
                     <button><IoLogoGithub /></button>
                     <button><IoLogoTwitter /></button>
+                    <button onClick={() => newRoute(PAGE_NAMES.TWITCH)}><FaTwitch /></button>
                 </div>
             </div>
 

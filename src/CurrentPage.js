@@ -3,11 +3,11 @@ import { PAGE_NAMES } from "./Components/Constants.js";
 
 const AboutPage = React.lazy(() => import('./Components/About/About'));
 
-const CurrentPage = ({ currentPage }) => {
+const CurrentPage = ({ currentPage, newRoute }) => {
     if (currentPage === PAGE_NAMES.ABOUT) {
         return (
             <Suspense fallback={<div>Loading...</div>}>
-                <AboutPage />
+                <AboutPage newRoute={newRoute} />
             </Suspense>
         );
     } else {
