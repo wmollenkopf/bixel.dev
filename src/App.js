@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import NavList from "./Components/Navbar/NavList"
 import { PAGE_NAMES } from "./Components/Constants.js";
+import CurrentPage from "./CurrentPage.js"
 
 export default class App extends Component {
   constructor(props) {
@@ -35,12 +36,8 @@ export default class App extends Component {
           <div id="stars3"></div>
         </div>
         <NavList newRoute={newRoute} currentPage={this.state.currentPage}  />
-        <div id="title">
-          <span id="mainTitle">bixel.dev</span>
-          <hr />
-          <span id="subTitle">
-            <div>To Be Continued</div>
-          </span>
+        <div id="currentPage">
+          <CurrentPage currentPage={this.state.currentPage} />
         </div>
       </div>
     );
