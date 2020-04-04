@@ -16,11 +16,7 @@ export default class App extends Component {
   }
 
   render() {
-    const newRoute = (e) => {
-      e.preventDefault();
-      //newRoute 
-      let destination = e.target.getAttribute('href').slice(1);
-      console.log(destination);
+    const newRoute = (destination) => {
       this.setState({ currentPage: destination });
       if (destination === PAGE_NAMES.TWITCH) {
         window.location = "https://www.twitch.tv/BiriBixel";
@@ -28,6 +24,7 @@ export default class App extends Component {
         console.log("Not traveling:", destination)
       }
     };
+
     return (
       <div className="App">
         <div className="starStuff">
@@ -37,7 +34,7 @@ export default class App extends Component {
         </div>
         <NavList newRoute={newRoute} currentPage={this.state.currentPage}  />
         <div id="currentPage">
-          <CurrentPage currentPage={this.state.currentPage} />
+          <CurrentPage currentPage={this.state.currentPage} newRoute={newRoute} />
         </div>
       </div>
     );
