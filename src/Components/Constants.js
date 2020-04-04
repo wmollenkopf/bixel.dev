@@ -1,6 +1,7 @@
 export const PAGE_NAMES = {
+    ABOUT: "About",
     HOME: "Home",
-    GAMES: "Games",
+    EXPERIENCE: "Experience",
     FFXIV: "FFXIV",
     TWITCH: "Twitch"
 };

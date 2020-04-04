@@ -18,6 +18,9 @@ html {
     }
 }
 
+#currentPage {
+  text-align: center;
+}
 
 #title {
   color: #FFF;
