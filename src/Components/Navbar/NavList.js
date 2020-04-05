@@ -14,6 +14,9 @@ const NavList = ({newRoute, currentPage }) => {
         <li id="Experience" className={currentPage === PAGE_NAMES.EXPERIENCE ? "active " : currentPage}>
           <a href="#Experience" onClick={() => newRoute(PAGE_NAMES.EXPERIENCE)}>Experience</a>
         </li>
+        <li id="Blog" className={currentPage === PAGE_NAMES.BLOG ? "active " : currentPage}>
+          <a href="#Blog" onClick={() => newRoute(PAGE_NAMES.BLOG)}>Blog</a>
+        </li>
         {/* <li id="FFXIV" className={currentPage === PAGE_NAMES.FFXIV ? "active " : currentPage}>
           <a href="#FFXIV" onClick={newRoute}>FFXIV</a>
         </li> */}
