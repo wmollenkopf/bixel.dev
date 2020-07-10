@@ -1,7 +1,5 @@
 import React from 'react';
 import "./Experience.css";
-import { PAGE_NAMES } from "../Constants.js";
-import { AiFillStar, AiOutlineStar} from "react-icons/ai";
 import Ability from "./Ability";
 
 // TODO: There's no bootstrap so need to use flexbox

@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillStar, AiOutlineStar, AiOutlineException} from "react-icons/ai";
+import { AiFillStar, AiOutlineStar} from "react-icons/ai";
 
 const Ability = ({ abilityName,years=null,score}) => {
 
