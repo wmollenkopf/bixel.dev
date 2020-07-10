@@ -3,7 +3,7 @@ ul#topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(51,51,51,.25);
+    /* background-color: rgba(51,51,51,.25); */
     display: flex;
     justify-content: center;
   }

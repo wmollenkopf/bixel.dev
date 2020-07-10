@@ -1,7 +1,7 @@
 html {
   height: 100%;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #163a58 100%);
-  animation: gradient 60s ease infinite;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #5091c7 100%);
+  animation: gradient 30s ease infinite;
   background-size: 400% 400%;
 }
 
@@ -32,7 +32,7 @@ html {
   padding-left: 10px;
 }
 #mainTitle {
-  background: -webkit-linear-gradient(white, #73879e);
+  background: -webkit-linear-gradient(white, #6086b1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
