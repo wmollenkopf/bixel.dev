@@ -26,6 +26,8 @@
 
 #photoContainer {
     width: 255px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 #bioContainer {
