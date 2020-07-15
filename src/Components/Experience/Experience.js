@@ -9,7 +9,6 @@ const Experience = ({ newRoute }) => {
         <div id="backgroundContainer">
             <div id="innerBackgroundContainer">
 
-            
                 <div className="experienceContainer">
                     <div className="abilityNameContainer">
                         <h2>Languages</h2>
