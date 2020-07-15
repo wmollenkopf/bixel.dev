@@ -1,0 +1,57 @@
+#backgroundContainer {
+    background: #FFFFFF;
+    background: -webkit-radial-gradient(center, #FFFFFF, #D5E2E4);
+    background: -moz-radial-gradient(center, #FFFFFF, #D5E2E4);
+    background: radial-gradient(ellipse at center, #FFFFFF, #D5E2E4);
+    max-width: 700px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+#innerBackgroundContainer {
+    max-width: 700px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 30px;
+    border: 3px solid #6C6F7C;
+    vertical-align: middle;
+    background-image: url("./wm3_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.postContainer {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.titleContainer {
+    /* border: 1px solid green; */
+    /* flex-grow: 1; */
+    margin-left: -1.5%;
+}
+
+.break-row {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.textContainer {
+    /* border: 1px solid red; */
+    width: 90%;
+    padding: 1%;
+}
+
+.codeContainer {
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 90%;
+    padding: 1%;
+    white-space: pre;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    background: rgba(120,120,120,.25);
+}
