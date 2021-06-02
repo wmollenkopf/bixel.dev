@@ -40,9 +40,9 @@ const Ability = ({ abilityName,years=null,score}) => {
             <ul className="no-bullets">
                 <li className="abilityLine">
                     <span className="ability-title">{outputName}</span>
-                    <span className="ability-score">
+                    {/* <span className="ability-score">
                         {stars}
-                    </span>
+                    </span> */}
                 </li>
             </ul>
         </div>

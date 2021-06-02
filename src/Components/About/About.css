@@ -1,9 +1,9 @@
+
 #aboutContainer {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 700px;
     text-align: left;
     border-radius: 10px;
     padding: 3px;
@@ -19,19 +19,19 @@
     background: -webkit-radial-gradient(center, #FFFFFF, #D5E2E4);
     background: -moz-radial-gradient(center, #FFFFFF, #D5E2E4);
     background: radial-gradient(ellipse at center, #FFFFFF, #D5E2E4);
-    max-width: 700px;
+    width: 70%;
     margin: 10px auto;
     border-radius: 10px;
 }
 
 #photoContainer {
-    width: 255px;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
 }
 
 #bioContainer {
-    max-width: 400px;
+    min-width: 400px;
 }
 
 #contactContainer {

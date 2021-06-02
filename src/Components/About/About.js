@@ -14,7 +14,7 @@ const About = ({ newRoute }) => {
                 </div>
                 <div id="bioContainer">
                     <h2>About Me</h2>
-                    <p>I consider myself a very hard-working Developer and Systems Administrator with many years of experience working on various websites and applications.</p>
+                    <p>I'm a hard-working Web Developer and currently a Systems Administrator with many years of experience working on various websites and applications.</p>
                     <p>My hobbies include playing video games, learning a foreign language, dabbling in game development, traveling around the world with my wife and reading fictional and educational novels.</p>
                     <p>I also love studying and improving myself each day, as well as to improve my skills through practice and online courses.</p>
 

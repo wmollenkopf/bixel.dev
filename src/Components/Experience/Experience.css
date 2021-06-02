@@ -1,6 +1,4 @@
 #innerBackgroundContainer {
-    
-    max-width: 700px;
     text-align: left;
     border-radius: 10px;
     padding: 3px;
@@ -61,7 +59,7 @@ display:block;
     background: -webkit-radial-gradient(center, #FFFFFF, #D5E2E4);
     background: -moz-radial-gradient(center, #FFFFFF, #D5E2E4);
     background: radial-gradient(ellipse at center, #FFFFFF, #D5E2E4);
-    max-width: 700px;
+    width: 70%;
     margin: 10px auto;
     border-radius: 10px;
 }
@@ -80,7 +78,7 @@ display:block;
 .abilityLinesContainer {
     /* border: 1px solid red; */
     /* flex-grow: 3; */
-    width: 310px;
+    width: 20%;
     padding-right: 2%;
     flex-wrap: nowrap;
     
