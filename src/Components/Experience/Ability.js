@@ -29,7 +29,8 @@ const Ability = ({ abilityName,years=null,score}) => {
 
     var outputName = ``;
     if(years) {
-        outputName = `${abilityName} (${years} years)`;
+        // outputName = `${abilityName} (${years} years)`;
+        outputName = `${abilityName}`;
     }
     else {
         outputName = `${abilityName}`;

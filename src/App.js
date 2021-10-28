@@ -15,12 +15,33 @@ export default class App extends Component {
 
   }
 
+  componentWillMount () {
+    const newRoute = (destination) => {
+      this.setState({ currentPage: destination });
+      if (destination === PAGE_NAMES.TWITCH) {
+        window.location = "https://www.twitch.tv/BiriBixel";
+      } 
+      else if (destination === PAGE_NAMES.BLOG) {
+        window.location = "https://blog.biri.me";
+        return (<div>Loading...</div>);
+      }
+       else {
+        console.log("Not traveling:", destination)
+      }
+    }
+  }
+
   render() {
     const newRoute = (destination) => {
       this.setState({ currentPage: destination });
       if (destination === PAGE_NAMES.TWITCH) {
         window.location = "https://www.twitch.tv/BiriBixel";
-      } else {
+      } 
+      else if (destination === PAGE_NAMES.BLOG) {
+        window.location = "https://blog.biri.me";
+        return (<div>Loading...</div>);
+      }
+       else {
         console.log("Not traveling:", destination)
       }
     };
