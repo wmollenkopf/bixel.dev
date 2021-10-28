@@ -20,6 +20,7 @@
     background: -moz-radial-gradient(center, #FFFFFF, #D5E2E4);
     background: radial-gradient(ellipse at center, #FFFFFF, #D5E2E4);
     width: 70%;
+    min-width: 400px;
     margin: 10px auto;
     border-radius: 10px;
 }
@@ -32,6 +33,7 @@
 
 #bioContainer {
     min-width: 400px;
+    max-width: 700px;
 }
 
 #contactContainer {
